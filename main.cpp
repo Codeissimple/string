@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    char name[100], address[100], phone[100];
+    string name, address, phone;
 
     cout << "Enter your name: ";
     cin >> name;
@@ -17,7 +17,7 @@ int main()
     cin >> phone;
     cout << "\nYou entered: " << phone << endl;
 
-    cout << "\nYour data: " << name << '\n' << address << '\n' << phone << endl; 
+    cout << "\nYour data: \n" << name << '\n' << address << '\n' << phone << endl; 
 
     return 0;
 }
